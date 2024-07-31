@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.event-list,
+.selected-events {
+  width: 45%;
+}
+
+.event-card,
+.selected-event-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
